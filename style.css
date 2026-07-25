@@ -1,0 +1,45 @@
+/* Custom Scrollbar for a sleek look */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0B0E14; 
+}
+::-webkit-scrollbar-thumb {
+    background: #1E293B; 
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #475569; 
+}
+
+/* Hide scrollbar for the category filter */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Marquee Animation */
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+    0% { transform: translateX(10%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Heart Like Animation */
+.liked .heart-icon {
+    fill: #F59E0B; /* Tailwind Accent */
+    stroke: #F59E0B;
+    transform: scale(1.1);
+}
+.heart-icon {
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

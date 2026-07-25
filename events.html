@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Archive | TISBOARD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/tisboard-logo.png">
+
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0B0E14',
+                        navysurface: '#1E293B',
+                        accent: '#F59E0B',
+                        accenthover: '#EA580C'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+
+<body class="bg-navy text-slate-200 antialiased min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-navy/80 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-accent hover:text-white flex items-center gap-2 font-bold">← Back to
+                Board</a>
+            <h1 class="text-xl font-black tracking-tighter"><span class="text-white">TIS</span><span
+                    class="text-accent">BOARD</span></h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-6 py-16 w-full flex-1">
+
+        <!-- Page Header -->
+        <header class="mb-16">
+            <h1 class="text-5xl md:text-6xl font-serif font-bold text-white mb-4 tracking-tight">Event Archive</h1>
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl">A compilation of past school activities, excursions,
+                and student projects.</p>
+        </header>
+
+        <!-- Events Grid (2 Columns on desktop, 1 on mobile) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+
+            <!-- EVENT 1 -->
+            <article
+                class="bg-navysurface border border-slate-700/50 rounded-3xl p-6 md:p-8 flex flex-col hover:border-slate-500 hover:shadow-2xl hover:shadow-black/50 transition-all duration-300 group">
+                <h2
+                    class="text-2xl md:text-3xl font-bold text-white mb-6 leading-snug group-hover:text-accent transition-colors">
+                    No Backpack Day
+                </h2>
+                <div class="w-full aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-black relative">
+                    <img src="assets/no-backpack-day.jpeg" alt="Sociology Project"
+                        class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
+                </div>
+                <p class="text-slate-400 leading-relaxed mb-8 flex-1">
+                    No Backpack Day is an event where students come to school without using their regular school bags.
+                    Students can carry their books and learning supplies in creative and unique ways, such as using
+                    shopping bags, buckets, suitcases, or even making their own handmade carriers. Students who create
+                    their own crafts during No Backpack Day will be evaluated, and the top ten most creative crafts will
+                    be selected and given special appreciation. This activity aims to foster creativity and create a
+                    more exciting and fun learning atmosphere.
+                </p>
+                <div class="mt-auto pt-6 border-t border-slate-700/50">
+                    <span class="text-sm font-bold text-slate-500 uppercase tracking-widest">Friday, 24 July 2026</span>
+                </div>
+            </article>
+
+    </main>
+
+
+
+    <!-- footer with external Links (rubric) -->
+
+    <footer class="border-t border-slate-800 bg-navy mt-20 py-12">
+
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div>
+
+                <h1 class="text-2xl font-black tracking-tighter mb-4"><span class="text-white">TIS</span><span
+                        class="text-accent">BOARD</span></h1>
+
+                <p class="text-slate-500 text-sm">The digital portfolio and magazine representing the creative voices of
+                    our student body.</p>
+
+            </div>
+
+            <div>
+
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+
+                <ul class="text-slate-400 text-sm space-y-2">
+
+                    <li><a href="index.html" class="hover:text-accent">Home</a></li>
+
+                    <li><a href="article.html" class="hover:text-accent">Latest Issue</a></li>
+
+                    <li><a href="submit.html" class="hover:text-accent text-white font-bold">Submit Your Work</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4 class="text-white font-bold mb-4">External Resources</h4>
+
+                <!-- Rubric: external link-->
+
+                <ul class="text-slate-400 text-sm space-y-2">
+
+                    <li><a href="https://unsplash.com" target="_blank"
+                            class="hover:text-accent flex items-center gap-2">🔗 Image Assets (Unsplash)</a></li>
+
+                    <li><a href="https://reactjs.org" target="_blank"
+                            class="hover:text-accent flex items-center gap-2">🔗 UI Inspiration</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="text-center text-slate-600 text-xs mt-12">
+
+            &copy; 2026 TIS BOARD Magazine Project. Designed for GAC011.
+
+        </div>
+
+        <div class="text-center text-slate-600 text-xs mt-12">
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- notif for share (copy) -->
+
+    <div id="toast"
+        class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-accent text-navy px-6 py-3 rounded-full font-bold shadow-lg transition-all duration-300 opacity-0 pointer-events-none translate-y-4 z-50">
+
+        Link copied to clipboard!
+
+    </div>
+
+
+
+    <!-- link javascript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

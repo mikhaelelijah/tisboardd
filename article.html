@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read full articles from the TiS BOARD.">
+    <title>TIS BOARD | Read Article</title>
+        <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/tisboard-logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { navy: '#0B0E14', navysurface: '#1E293B', accent: '#F59E0B' }, fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Merriweather', 'serif'], } } } }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-navy text-slate-300 font-sans antialiased">
+
+    <!-- header -->
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-navy/80 border-b border-slate-700/50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a href="index.html" class="text-accent hover:text-white flex items-center gap-2 font-bold">
+                    <span>← Back to Board</span>
+                </a>
+            </div>
+            <h1 class="text-xl font-black tracking-tighter hidden md:block">
+                <span class="text-white">TIS</span><span class="text-accent">BOARD</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- article content -->
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        <span class="text-accent font-bold tracking-widest text-sm mb-4 block">WRITING</span>
+        <h1 class="text-4xl md:text-5xl font-serif font-bold text-white mb-6">International Houses Vs. Small Local Places</h1>
+        
+        <div class="flex items-center gap-4 border-b border-slate-800 pb-8 mb-8">
+            <div class="w-12 h-12 bg-navysurface rounded-full overflow-hidden border border-slate-700">
+                <!-- Image 4 -->
+                <img src="assets/author.jpeg" alt="Author" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <p class="text-white font-bold">Chelsey Valeriane</p>
+                <p class="text-slate-500 text-sm">Published on July 10</p>
+            </div>
+        </div>
+
+        <!-- Alec Krum (Unsplash) -->
+        <div class="mb-10 rounded-2xl overflow-hidden border border-slate-700/50 bg-navysurface shadow-xl">
+            <div class="relative h-72 md:h-96 w-full">
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1200&auto=format&fit=crop" alt="Brown and white concrete house surrounded by green trees during daytime" class="w-full h-full object-cover">
+            </div>
+            <div class="px-6 py-3 bg-navysurface/90 border-t border-slate-800 flex justify-between items-center text-xs text-slate-400">
+                <span>Photo by <a href="https://unsplash.com/photos/white-and-brown-concrete-building-under-blue-sky-during-daytime-_TPTXZd9mOo" target="_blank" class="text-accent hover:underline">Ярослав Алексеенко</a> on Unsplash</span>
+                <span class="uppercase tracking-wider">Costa del Sol, Spain</span>
+            </div>
+        </div>
+
+        <article class="font-serif text-lg leading-relaxed space-y-6 text-slate-300">
+            <p>Where you choose to stay during a trip can really shape your experience. Picking the right place feels just as important as planning your itinerary or booking your flights. It’s not only about having a bed to lay on—where you stay affects how comfortable you feel, how much you connect with the local culture, and even how safe you are when everything around you is unfamiliar. Most people end up choosing between two main types, big international hotels and small local spots. They both get the job done, but you’ll notice some major differences, and they can totally change the way your trip feels.</p>
+            
+            <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-sans">Comfort and Atmosphere</h3>
+            <p>International and local hotels, despite their geographical differences, have a shared objective: providing guests with a comfortable space to relax. At the most basic service, they provide necessities such as beds, bathrooms, and essential amenities for travellers to use. However, the level of comfort they provide often varies. International hotels are known for their consistency and high-quality facilities, such as fitness centres, swimming pools, room service, and modern interiors. These features create a sense of familiarity for global travellers who want predictable standards wherever they go. In contrast, small local hotels may not offer luxurious facilities, but they often compensate with a cosy, home-like atmosphere that appeals to visitors seeking simplicity and warmth. Although the quality of local hotels can vary, many travellers appreciate the charm and personalised service being offered.</p>
+            
+            <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-sans">Local Flavor vs. Global Neutrality</h3>
+            <p>Both kinds of hotels try to include some local flavor, it could be staff from the area, dishes that represent regional tastes, or decorations pulled from local traditions. But there is a big difference. Local hotels usually go deeper, bringing in local designs, traditional artwork, and customs right into the experience. You’ll often meet the owners or staff who grew up nearby, get stories about the place, or tips only a local would know. International hotels keep things neutral and comfortable, which is easy but less exciting. You’ll find the same vibe in different countries, so even though it’s convenient, it doesn’t really feel like you’re somewhere truly new.</p>
+            
+            <!-- Rubric: Ordered/Unordered List -->
+            <div class="bg-navysurface p-6 rounded-xl border border-slate-700/50 my-8">
+                <h4 class="text-white font-bold font-sans mb-4">Key Differences to Consider:</h4>
+                <ul class="list-disc list-inside space-y-2 text-slate-400 font-sans">
+                    <li><strong>Familiarity vs. Authenticity:</strong> Predictable global standards versus deep local immersion.</li>
+                    <li><strong>Facilities:</strong> Modern luxury and amenities versus cozy, home-like warmth.</li>
+                    <li><strong>Safety Regulations:</strong> Strict international guidelines versus varying local security measures.</li>
+                </ul>
+            </div>
+
+            <p>Safety matters a lot when people pick a place to stay. Every hotel wants its guests to feel protected, but not every hotel delivers the same standards. To help travellers feel secure, international hotels have strict rules when it comes to fires, cleanliness, emergency plans, and making sure staff is competent. Both types of hotels recognise the importance of protecting their guests, but the consistency of safety standards can vary. International hotels usually follow strict global regulations. These standards provide reassurance to travellers who prioritise security. Local hotels also prioritize guest safety, although the degree of security provided can vary based on available resources, management practices, and adherence to local regulations. Certain local establishments provide robust security measures and attentive service, whereas others may have more limited amenities. Despite these disparities, numerous travelers continue to favor local hotels, often citing a more personalized and trustworthy experience.</p>
+            
+            <p>In conclusion, it all comes down to what matters most to the traveler either being comfortable and knowing what to expect, or diving into the local scene and saving some money. When travelers really see these differences, they’re in a better spot to pick where to stay and make the trip count.</p>
+
+            <h3 class="text-xl font-bold text-white mt-12 mb-4 font-sans border-t border-slate-800 pt-8">Reference List</h3>
+            <ul class="space-y-4 text-base text-slate-400 font-sans break-words">
+                <li>Collins, G. (2022). International hotel standards and global hospitality practices. <em>Journal of Tourism and Hospitality Management</em>, 14(3), 45–59. Source: ProfNIT.org <br><a href="https://share.google/z155X4y9BAe5UvgV0" class="text-accent hover:underline">https://share.google/z155X4y9BAe5UvgV0</a></li>
+                <li>Henderson, J. C. (2019). Local accommodation and cultural tourism: Understanding authentic travel experiences. <em>Tourism Review International</em>, 23(2), 120–134. <br><a href="https://ojs-akbi.org/index.php/proceeding/article/view/1" class="text-accent hover:underline">https://ojs-akbi.org/index.php/proceeding/article/view/1</a></li>
+                <li>Pizam, A., & Mansfeld, Y. (2006). Tourism, security and safety: From theory to practice. pp, 1-27. Source: Google Books <br><a href="https://share.google/sWIkgFPmHu7yeX1ZB" class="text-accent hover:underline">https://share.google/sWIkgFPmHu7yeX1ZB</a></li>
+            </ul>
+        </article>
+
+
+        <!-- Bottom Action Bar -->
+        <div class="mt-12 pt-8 border-t border-slate-800 flex justify-between items-center">
+            <button class="bg-accent hover:bg-[#EA580C] text-navy font-bold py-3 px-8 rounded-full transition-colors">Read Next Issue</button>
+            <div class="flex gap-4">
+            </div>
+              <button class="like-btn flex items-center gap-1 text-slate-500 hover:text-accent transition-colors" data-likes="89">
+                            <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                            <span class="like-count text-xs">124</span>
+                        </button>
+        </div>
+    </main>
+  <!-- link javascript -->
+    <script src="script.js"></script>
+
+
+    <!-- footer with external Links (rubric) -->
+
+    <footer class="border-t border-slate-800 bg-navy mt-20 py-12">
+
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div>
+
+                <h1 class="text-2xl font-black tracking-tighter mb-4"><span class="text-white">TIS</span><span
+                        class="text-accent">BOARD</span></h1>
+
+                <p class="text-slate-500 text-sm">The digital portfolio and magazine representing the creative voices of
+                    our student body.</p>
+
+            </div>
+
+            <div>
+
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+
+                <ul class="text-slate-400 text-sm space-y-2">
+
+                    <li><a href="index.html" class="hover:text-accent">Home</a></li>
+
+                    <li><a href="article.html" class="hover:text-accent">Latest Issue</a></li>
+
+                    <li><a href="submit.html" class="hover:text-accent text-white font-bold">Submit Your Work</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4 class="text-white font-bold mb-4">External Resources</h4>
+
+                <!-- Rubric: external link-->
+
+                <ul class="text-slate-400 text-sm space-y-2">
+
+                    <li><a href="https://unsplash.com" target="_blank"
+                            class="hover:text-accent flex items-center gap-2">🔗 Image Assets (Unsplash)</a></li>
+
+                    <li><a href="https://reactjs.org" target="_blank"
+                            class="hover:text-accent flex items-center gap-2">🔗 UI Inspiration</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="text-center text-slate-600 text-xs mt-12">
+
+            &copy; 2026 TIS BOARD Magazine Project. Designed for GAC011.
+
+        </div>
+
+        <div class="text-center text-slate-600 text-xs mt-12">
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- notif for share (copy) -->
+
+    <div id="toast"
+        class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-accent text-navy px-6 py-3 rounded-full font-bold shadow-lg transition-all duration-300 opacity-0 pointer-events-none translate-y-4 z-50">
+
+        Link copied to clipboard!
+
+    </div>
+
+
+
+    <!-- link javascript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
